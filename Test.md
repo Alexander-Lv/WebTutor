@@ -1,4 +1,4 @@
-#HEADING
+h1 #HEADING
 ***
 
 ##HEADING
