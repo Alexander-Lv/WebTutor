@@ -33,4 +33,4 @@ THIS IS MY SECOND PARAGRAPH
 
 [Введение](vved.md)
 
-
+![screenshot of sample](http://webdesign.ru.net/images/Heydon_min.jpg)
