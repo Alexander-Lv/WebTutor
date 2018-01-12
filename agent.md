@@ -6,6 +6,7 @@
 Агенты в системе размещаются в WebTutor Administrator в разделе **Дизайнер - Агенты сервера**.
 
 Рис. agent01
+![](https://img-fotki.yandex.ru/get/508505/1074921.0/0_25e5b6_d1bdbb13_orig.png)
 
 ---
 
