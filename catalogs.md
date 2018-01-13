@@ -1,7 +1,7 @@
 # Справочник каталогов
 ***
 
-Ниже приводится [Cправочник каталогов WebTutor](http://news.websoft.ru/view_doc.html?mode=catalogs) (Версия 3.4.0.54 (2017.11.03)):
+Ниже приводится [Cправочник каталогов WebTutor](http://news.websoft.ru/view_doc.html?mode=catalogs) (версия 3.4.0.54 (2017.11.03)):
 
 ---
 
@@ -326,6 +326,85 @@
 [bonus_profile](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=bonus_profile) – Профиль премирования
 
 [bonus_item](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=bonus_item) – Результат премирования
+
+[development_method](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=development_method) – Способ развития
+
+[assessment_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=assessment_plan) – План оценки
+
+[print_form](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=print_form) – Печатная форма
+
+[covenant](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=covenant) – Ученический договор
+
+[user_assignment](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=user_assignment) – Назначения для пользователей
+
+[assessment_appraise_matrix](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=assessment_appraise_matrix) – Матрица ответственности
+
+[competence_profile_family](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=competence_profile_family) – Семейство профилей
+
+[rating](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=rating) – Рейтинг
+
+[exercise](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=exercise) – Упражнение
+
+[operation](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=operation) – Операция
+
+[boss_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=boss_type) – Тип руководителя
+
+[grade](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=grade) – Грейд
+
+[objective_translate](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=objective_translate) – Трансляция цели
+
+[position_assessment_form](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=position_assessment_form) – Оценка должностей
+
+[task](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=task) – Задача
+
+[task_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=task_type) – Тип задачи
+
+[action_report](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=action_report) – Событие базы
+
+[active_notification](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=active_notification) – Неотправленное уведомление
+
+[connection](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=connection) – Сессия обучения
+
+[order_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=order_type) – Установки для приказов по умолчанию
+
+[contract_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=contract_type) – Тип договора
+
+[system_event](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=system_event) – Системные события
+
+[statistic_rec](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=statistic_rec) – Показатель
+
+[statistic_data](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=statistic_data) – Значение показателя
+
+[event_assessment_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=event_assessment_plan) – План оценки по мероприятию
+
+[certificate](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=certificate) – Сертификат
+
+[certificate_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=certificate_type) – Тип сертификата
+
+[region](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=region) – Регион
+
+[vacancy_subscription](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=vacancy_subscription) – Подписка на вакансии
+
+[selected_vacancy](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=selected_vacancy) – Избранная вакансия
+
+[vacancy_response](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=vacancy_response) – Отклик на вакансию
+
+[vacancy](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=vacancy) – Вакансия
+
+[candidate_status_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=candidate_status_type) – Статус кандидата
+
+[work_schedule](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=work_schedule) – График работы
+
+[vacancy_source](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=vacancy_source) – Источник вакансии
+
+[selected_resume](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=selected_resume) – Отобранное резюме
+
+[vacancy_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=vacancy_type) – Тип вакансий
+
+[recruitment_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=recruitment_plan) – План подбора
+
+[recruitment_method](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=recruitment_method) – Способ подбора
+
 
 
 
