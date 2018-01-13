@@ -3,7 +3,7 @@
 
 ***
 
-Ознакомьтесь со [структурой каталога collaborator (Сотрудник)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=collaborator) (версия 3.4.0.54 (2017.11.03)):
+Ознакомьтесь со [структурой каталога collaborator (Сотрудник)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=collaborator) (версия 3.4.0.54 (2017.11.03)).
 
 Также мы будем далее называть сотрудников **пользователями** или **обучающимися**.
 
