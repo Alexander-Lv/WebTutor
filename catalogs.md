@@ -1,13 +1,13 @@
-# Справочник каталогов
+# РЎРїСЂР°РІРѕС‡РЅРёРє РєР°С‚Р°Р»РѕРіРѕРІ
 ***
 
-Ниже приводится [Cправочник каталогов WebTutor (Версия 3.4.0.54 (2017.11.03))](http://news.websoft.ru/view_doc.html?mode=catalogs):
+РќРёР¶Рµ РїСЂРёРІРѕРґРёС‚СЃСЏ [CРїСЂР°РІРѕС‡РЅРёРє РєР°С‚Р°Р»РѕРіРѕРІ WebTutor (Р’РµСЂСЃРёСЏ 3.4.0.54 (2017.11.03))](http://news.websoft.ru/view_doc.html?mode=catalogs):
 
-[org](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=org) – Организация
+[org](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=org) вЂ“ РћСЂРіР°РЅРёР·Р°С†РёСЏ
 
-[subdivision](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=subdivision) – Подразделение
+[subdivision](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=subdivision) вЂ“ РџРѕРґСЂР°Р·РґРµР»РµРЅРёРµ
 
-[subdivision_group](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=subdivision_group) – Группа подразделений
+[subdivision_group](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=subdivision_group) вЂ“ Р“СЂСѓРїРїР° РїРѕРґСЂР°Р·РґРµР»РµРЅРёР№
 
 
 
@@ -16,13 +16,14 @@
 
  
 
-***
+
+***
 
 
-<dd><li> <a href="3_object_model.md"> Возврат к части 3</a></dd>
+<dd><li> <a href="3_object_model.md"> Р’РѕР·РІСЂР°С‚ Рє С‡Р°СЃС‚Рё 3</a></dd>
 
 
 
 
 
-<dd><li> <a href="README.md"> Возврат к оглавлению</a></dd>
+<dd><li> <a href="README.md"> Р’РѕР·РІСЂР°С‚ Рє РѕРіР»Р°РІР»РµРЅРёСЋ</a></dd>
