@@ -1,7 +1,7 @@
 # Справочник каталогов
 ***
 
-Ниже приводится [Cправочник каталогов WebTutor (Версия 3.4.0.54 (2017.11.03))](http://news.websoft.ru/view_doc.html?mode=catalogs):
+Ниже приводится [Cправочник каталогов WebTutor](http://news.websoft.ru/view_doc.html?mode=catalogs) (Версия 3.4.0.54 (2017.11.03)):
 
 [org](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=org) – Организация
 
