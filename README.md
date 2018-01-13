@@ -32,4 +32,3 @@
 <dd><li> <a href="XQuery_quantity.md"> Проверка количества объектов в результате запроса</a></dd>
 ---
 <dd><li> <a href="5_practical_realization.md"> Часть 5. Реализация некоторых практических задач</a></dd>
-
