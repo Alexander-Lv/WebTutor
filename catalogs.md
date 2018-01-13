@@ -55,6 +55,35 @@
 
 [outstaff_provider](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=outstaff_provider) – Провайдер временного персонала
 
+[outstaff_contract](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=outstaff_contract) – Контракт на временный персонал
+
+[outstaff_order](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=outstaff_order) – Заказ на временный персонал
+
+[outstaff_order_execution](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=outstaff_order_execution) – Исполнение заказа на временный персонал
+
+[knowledge_classifier](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=knowledge_classifier) – Классификатор знаний
+
+[knowledge_part](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=knowledge_part) – Значение карты знаний
+
+[knowledge_part_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=knowledge_part_type) – Тип значение карты знаний
+
+[knowledge_part_level](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=knowledge_part_level) – Категория значения карты знаний
+
+[knowledge_profile](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=knowledge_profile) – Профиль знаний
+
+[expert](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=expert) – Эксперт
+
+[expert_question](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=expert_question) – Вопрос эксперту
+
+[acquaint](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=acquaint) – Ознакомление
+
+[tag](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=tag) – Тег
+
+[book](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=book) – Книга
+
+[article](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=article) – Статья
+
+
 
 
 
