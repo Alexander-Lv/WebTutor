@@ -483,6 +483,99 @@
 
 [dn_block_discipline](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_block_discipline) – Блок дисциплин
 
+[dn_academ_year](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_academ_year) – Учебный год
+
+[dn_control_form](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_control_form) – Форма контроля
+
+[dn_educat_event](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_educat_event) – Форма проведения учебного мероприятия
+
+[dn_educat_form](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_educat_form) – Форма обучения
+
+[dn_special](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_special) – Специальность
+
+[dn_specialization](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_specialization) – Специализация
+
+[dn_program_discipl](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_program_discipl) – Программа дисциплины
+
+[dn_prog_disc_append](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_prog_disc_append) – Приложение к программе дисциплины
+
+[dn_edu_condition](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_edu_condition) – Условие обучения
+
+[dn_train_method_complex](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_train_method_complex) – Учебно-методический комплекс
+
+[dn_term](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_term) – Семестр
+
+[dn_student](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_student) – Студент
+
+[dn_stud_centrtest_result](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_stud_centrtest_result) – Результат ЕГЭ
+
+[dn_stud_group](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_stud_group) – Учебная группа
+
+[dn_stream](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_stream) – Поток
+
+[dn_subject_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_subject_plan) – Тематический план
+
+[dn_ind_educat_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_ind_educat_plan) – Индивидуальный план обучения
+
+[dn_work_curriculum](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_work_curriculum) – Учебный план
+
+[dn_lesson](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_lesson) – Занятие
+
+[dn_schedule](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_schedule) – Расписание
+
+[dn_control_event](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_control_event) – Контрольное мероприятие
+
+[dn_register](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_register) – Ведомость
+
+[dn_academ_debt](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_academ_debt) – Академическая задолженность
+
+[plugin](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=plugin) – Плагин
+
+[web_rule](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=web_rule) – Правило
+
+[external_system](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=external_system) – Внешняя система
+
+[walkthrough](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=walkthrough) – Пошаговое прохождение
+
+[statement](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=statement) – Учебная активность
+
+[activity](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=activity) – Тип учебной активности
+
+[activity_state](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=activity_state) – Статус учебной активности
+
+[learning_storage](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=learning_storage) – Хранилище учебных активностей
+
+[kpi_value](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=kpi_value) – Значение KPI
+
+[reprimand](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=reprimand) – Дисциплинарное взыскание
+
+[reprimand_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=reprimand_type) – Тип взыскания
+
+[acquaint_assign](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=acquaint_assign) – Назначенное ознакомление
+
+[chatbot](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=chatbot) – Чат-бот
+
+[chatbot_chat](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=chatbot_chat) – Чат
+
+[chatbot_stage](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=chatbot_stage) – Этап чат-бота
+
+[chatbot_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=chatbot_type) – Тип чат-бота
+
+[custom_chatbot_template](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=custom_chatbot_template) – Настраиваемый шаблон для чат-ботов
+
+[component_package](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=component_package) – Полезные компоненты софта
+
+[mobile_app_config](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=mobile_app_config) – Настройки мобильного приложения
+
+[device_reg](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=device_reg) – Подключенное устройство
+
+[cc_course](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cc_course) – Курсы
+
+[cc_exthd_work_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cc_exthd_work_type) – Тип работы
+
+[cc_exthd_sla](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cc_exthd_sla) – Тип SLA расширенной техподдержки
+
+[cc_exthd_agreement](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cc_exthd_agreement) – Договор о расширенной техподдержке
 
 
 
