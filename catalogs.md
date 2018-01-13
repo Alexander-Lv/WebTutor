@@ -83,6 +83,87 @@
 
 [article](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=article) – Статья
 
+[career_reserve](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=career_reserve) – Развитие карьеры
+
+[resume](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=resume) – Резюме
+
+[personnel_reserve](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=personnel_reserve) – Кадровый резерв
+
+[personnel_committee](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=personnel_committee) – Кадровый комитет
+
+[committee_member](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=committee_member) – Участник кадрового комитета
+
+[exclusion_reason](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=exclusion_reason) – Основание для исключения
+
+[talent_pool_nomination](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=talent_pool_nomination) – Способ выдвижения в резерв
+
+[typical_development_program](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=typical_development_program) – Типовая программа развития
+
+[career_reserve_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=career_reserve_type) – Тип кадрового резерва
+
+[skill](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=skill) – Навык
+
+[professional_area](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=professional_area) – Профессиональная область
+
+[development_potential](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=development_potential) – Потенциал развития
+
+[efficiency_estimation](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=efficiency_estimation) – Оценка эффективности
+
+[risk_perspective](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=risk_perspective) – Уровень риска
+
+[risk_level](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=risk_level) – Фактор риска
+
+[successor](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=successor) – Преемник
+
+[readiness_level](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=readiness_level) – Уровень готовности
+
+[key_position](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=key_position) – Ключевая должность
+
+[key_position_threat](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=key_position_threat) – Угроза ключевой должности
+
+[section_instruction](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=section_instruction) – Раздел инструкции
+
+[tutor](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=tutor) – Наставник
+
+[course](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=course) – Электронный курс
+
+[course_module](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=course_module) – Учебный модуль
+
+[active_learning](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=active_learning) – Незаконченный (незавершенный) электронный курс
+
+[learning](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=learning) – Законченный (завершенный) электронный курс
+
+[learning_part](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=learning_part) – Раздел курс
+
+[item](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=item) – Вопрос
+
+[assessment](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=assessment) – Тест
+
+[test_project](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=test_project) – Проект теста
+
+[role](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=role) – Категория
+
+[active_test_learning](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=active_test_learning) – Незаконченный (незавершенный) тест
+
+[test_learning](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=test_learning) – Законченный (завершенный) тест
+
+[testing_system](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=testing_system) – Система тестирования
+
+[document](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=document) – Раздел портала
+
+[document_comment_entry](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=document_comment_entry) – Комментарии к документу портала
+
+[poll](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=poll) – Опрос
+
+[poll_result](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=poll_result) – Результат опроса
+
+[poll_procedure](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=poll_procedure) – Процедура опроса
+
+[forum](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=forum) – Форум
+
+[forum_entry](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=forum_entry) – Статья форума
+
+
 
 
 
