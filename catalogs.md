@@ -285,6 +285,48 @@
 
 [doc_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=doc_type) – Тип документов
 
+[custom_web_template](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=custom_web_template) – Настраиваемый Web-шаблон
+
+[custom_web_template_group](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=custom_web_template_group) – Группа Web-шаблонов
+
+[digital_signature](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=digital_signature) – Электронно-цифровая подпись
+
+[project](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=project) – Проект
+
+[project_participant](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=project_participant) – Участник проекта
+
+[contact](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=contact) – Контакты
+
+[contact_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=contact_type) – Тип контакта
+
+[contact_result](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=contact_result) – Результат контакта
+
+[kpi](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=kpi) – KPI
+
+[kpi_profile](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=kpi_profile) – Профиль KPI
+
+[competence](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=competence) – Компетенция
+
+[indicator](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=indicator) – Индикатор
+
+[competence_profile](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=competence_profile) – Профиль компетенций
+
+[assessment_appraise](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=assessment_appraise) – Процедура оценки
+
+[pa](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=pa) – Анкета
+
+[supplementary_question](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=supplementary_question) – Дополнительный вопрос
+
+[assessment_result_recommend](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=assessment_result_recommend) – Рекомендации по результатам оценки
+
+[competence_block](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=competence_block) – Блоки компетенций
+
+[development_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=development_plan) – План развития
+
+[bonus_profile](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=bonus_profile) – Профиль премирования
+
+[bonus_item](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=bonus_item) – Результат премирования
+
 
 
 
