@@ -16,9 +16,9 @@
 <dd><li> <a href="try.md"> Обработка ошибок: операторы try… catch (err)</a></dd>
 <dd><li> <a href="functions.md"> Функции</a></dd>
 ---
-<dd><li> <a href=" 2_data_types.md"> Часть 2. Типы данных</a></dd>
+<dd><li> <a href="2_data_types.md"> Часть 2. Типы данных</a></dd>
 ---
-<dd><li> <a href=" 3_object_model.md"> Часть 3. Работа с объектной моделью. Изучение объектной модели</a></dd>
+<dd><li> <a href="3_object_model.md"> Часть 3. Работа с объектной моделью. Изучение объектной модели</a></dd>
 <dd><li> <a href="catalogs.md"> Справочник каталогов</a></dd>
 <dd><li> <a href="collaborator.md"> Структура каталога collaborator (Сотрудник)</a></dd>
 <dd><li> <a href="assessment.md"> Структура каталога assessment (Тест)</a></dd>
