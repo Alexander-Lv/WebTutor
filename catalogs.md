@@ -405,6 +405,84 @@
 
 [recruitment_method](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=recruitment_method) – Способ подбора
 
+[candidate_source](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=candidate_source) – Источник кандидатов
+
+[recommendation](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=recommendation) – Рекомендация на вакансию
+
+[estaff_event_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=estaff_event_type) – Тип события E-Staff
+
+[estaff_event](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=estaff_event) – Обработка события E-Staff
+
+[submission](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=submission) – Отчетная форма
+
+[submission_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=submission_type) – Тип отчетной формы
+
+[override_web_template](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=override_web_template) – Элемент шаблона
+
+[bp](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=bp) – Бизнес-процесс
+
+[bp_role](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=bp_role) – Роль в бизнес-процессе
+
+[person_object_link](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=person_object_link) – Контент сотрудника
+
+[person_object_profile](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=person_object_profile) – Профиль редактирования контента
+
+[custom_admin_template](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=custom_admin_template) – Шаблон клиенсткой части
+
+[cl_course](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cl_course) – Курс CourseLab
+
+[cl_module](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cl_module) – Модуль CourseLab
+
+[cl_slide](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cl_slide) – Слайд CourseLab
+
+[cl_object](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cl_object) – Объект CourseLab
+
+[cl_shape](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cl_shape) – Автофигура CourseLab
+
+[library_material](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_material) – Материал библиотеки
+
+[library_material_item](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_material_item) – Экземпляр материала библиотеки
+
+[library_section](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_section) – Раздел библиотеки
+
+[library_material_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_material_type) – Вид материала
+
+[library_material_format](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_material_format) – Формат материала
+
+[library_material_comment](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_material_comment) – Отзыв о материале
+
+[library_material_viewing](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_material_viewing) – Просмотр материала библиотеки
+
+[license](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=license) – Лицензия библиотеки
+
+[library_material_source_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_material_source_type) – Тип входных данных
+
+[repositorium](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=repositorium) – Репозиторий
+
+[vendor_state](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=vendor_state) – Статус вендора
+
+[org_vendor_state](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=org_vendor_state) – Статус организации у вендора
+
+[remote_action](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=remote_action) – Удаленное действие
+
+[remote_collection](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=remote_collection) – Выборка
+
+[download_package](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=download_package) – Скаченный пакет данных
+
+[upload_package](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=upload_package) – Пакет данных
+
+[object_version](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=object_version) – Версия объекта
+
+[user_data](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=user_data) – Пользовательские данные
+
+[profiling_record](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=profiling_record) – Profiling record
+
+[dn_auditorium](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_auditorium) – Аудитория
+
+[dn_discipline](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_discipline) – Дисциплина
+
+[dn_block_discipline](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=dn_block_discipline) – Блок дисциплин
+
 
 
 
