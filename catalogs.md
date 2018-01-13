@@ -203,6 +203,88 @@
 
 [pay_phase](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=pay_phase) – Этап оплаты
 
+[budget](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=budget) – Бюджет
+
+[budget_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=budget_type) – Тип бюджета
+
+[contract](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=contract) – Договор
+
+[level](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=level) – Уровень
+
+[education_org](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=education_org) – Обучающая организация
+
+[education_method](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=education_method) – Учебная программа
+
+[compound_program](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=compound_program) – Модульная программа
+
+[education_program](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=education_program) – Набор программ
+
+[event](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=event) – Мероприятие
+
+[event_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=event_type) – Тип мероприятия
+
+[event_result](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=event_result) – Результат мероприятия
+
+[lector](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=lector) – Преподаватель
+
+[object_resource](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=object_resource) – Оборудование
+
+[education_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=education_plan) – План обучения
+
+[training_plan](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=training_plan) – План мероприятий
+
+[traning_order](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=traning_order) – Приказ на обучение
+
+[contest](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=contest) – Конкурс
+
+[participant](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=participant) – Участник конкурса
+
+[place](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=place) – Расположение
+
+[resource](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=resource) – Ресурс базы
+
+[resource_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=resource_type) – Тип ресурса базы
+
+[script_queue_elem](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=script_queue_elem) – Очередь скриптов
+
+[request](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=request) – Заявка
+
+[response](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=response) – Отзыв
+
+[discharge](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=discharge) – Выгрузки из базы
+
+[tenancy](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=tenancy) – Экземпляр
+
+[webinar_system](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=webinar_system) – Система вебинаров
+
+[library_system](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=library_system) – Система библиотек
+
+[server_agent](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=server_agent) – Агент сервера
+
+[notification](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=notification) – Тип уведомления
+
+[notification_template](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=notification_template) – Шаблон уведомления
+
+[workflow](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=workflow) – Тип документооборота
+
+[exchange_server](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=exchange_server) – Сервер обмена данными
+
+[file_source](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=file_source) – Источники файлов
+
+[custom_report](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=custom_report) – Настраиваемый отчет
+
+[request_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=request_type) – Тип заявки
+
+[response_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=response_type) – Тип отзыва
+
+[event_result_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=event_result_type) – Тип результата мероприятия
+
+[notification_system](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=notification_system) – Система уведомлений
+
+[coding](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=coding) – Нумератор
+
+[doc_type](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=doc_type) – Тип документов
+
 
 
 
