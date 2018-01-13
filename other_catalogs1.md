@@ -3,7 +3,7 @@
 
 ***
 
-Ознакомьтесь со структурами каталогов [active_test_learning (Незаконченный (незавершенный) тест)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=active_test_learning) и [test_learning (Законченный (завершенный) тест)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=test_learning) (версия 3.4.0.54 (2017.11.03)).
+Ознакомьтесь со структурами каталогов [active_test_learning (Незаконченный (незавершенный) тест)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=active_test_learning) и [test_learning (Законченный (завершенный) тест)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=test_learning).
 
 В дальнейшем мы будем работать с объектами данного типа и выполнять с ними некоторые практические занятия.
 
