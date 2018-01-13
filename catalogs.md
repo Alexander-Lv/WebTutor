@@ -163,6 +163,47 @@
 
 [forum_entry](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=forum_entry) – Статья форума
 
+[forum_theme_read_by_collaborator](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=forum_theme_read_by_collaborator) – Прочтение темы сотрудником
+
+[blog](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=blog) – Блог
+
+[blog_entry](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=blog_entry) – Сообщение блога
+
+[blog_entry_comment](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=blog_entry_comment) – Комментарий сообщения блога
+
+[chat](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=chat) – Чат
+
+[banner](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=banner) – Баннер
+
+[subscription](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=subscription) – Подписка
+
+[host](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=host) – Узел
+
+[site](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=site) – Сайт
+
+[web_design](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=web_design) – Дизайн портала
+
+[active_web_template](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=active_web_template) – Текущая сессия портала
+
+[like](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=like) – Like
+
+[change](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=change) – Изменение
+
+[transaction](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=transaction) – Транзакция
+
+[invoice](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=invoice) – Оплата
+
+[account](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=account) – Билинговый счет
+
+[expense_item](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=expense_item) – Статья затрат
+
+[cost_center](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=cost_center) – Центр затрат
+
+[budget_period](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=budget_period) – Бюджетный период
+
+[pay_phase](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=pay_phase) – Этап оплаты
+
+
 
 
 
@@ -171,7 +212,7 @@
 
 ---
 
-Для выполнения практических занятий нам понадобятся только отдельные каталоги из приведенного выше списка.
+Для выполнения практических занятий нам понадобятся только отдельные каталоги из приведенного выше перечня.
 
 ***
 <dd><li> <a href="3_object_model.md"> Возврат к части 3</a></dd>
