@@ -1,10 +1,10 @@
 # WebTutor 
 # Это практикум  для изучения программирования в среде WebTutor 
 
-<dd><li> <a href="vved.md"> Введение<\a></dd>
-<dd><li> <a href="agent.md"> Что такое агент?<\a></dd>
-<dd><li> <a href="test_agent.md"> Создание тестового агента для выполнения упражнений<\a></dd>
-<dd><li> <a href="run_agent.md"> Как запустить агент?<\a></dd>
+<dd><li> <a href="vved.md"> Введение</a></dd>
+<dd><li> <a href="agent.md"> Что такое агент?</a></dd>
+<dd><li> <a href="test_agent.md"> Создание тестового агента для выполнения упражнений</a></dd>
+<dd><li> <a href="run_agent.md"> Как запустить агент?</a></dd>
 --- 
 <dd><li> <a href="1_language.md"> Часть 1. Основы языка программирования</dd>
 <dd><li> <a href="variables.md"> Переменные</dd>
