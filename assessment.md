@@ -3,7 +3,7 @@
 
 ***
 
-Ознакомьтесь со [структурой каталога assessment (Тест)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=assessment) (версия 3.4.0.54 (2017.11.03)):
+Ознакомьтесь со [структурой каталога assessment (Тест)](http://news.websoft.ru/view_doc.html?mode=catalogs&catalog=assessment) (версия 3.4.0.54 (2017.11.03)).
 
 В дальнейшем мы будем работать с объектами данного типа и выполнять с ними некоторые практические занятия.
 
