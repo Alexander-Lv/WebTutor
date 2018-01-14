@@ -28,7 +28,7 @@ THIS IS MY SECOND PARAGRAPH
 
 <http://webdesign.ru.net>
 
-<vved.md>
+<vved.md> (такая ссылка не работает)
 
 [Мой сайт](http://webdesign.ru.net)
 
