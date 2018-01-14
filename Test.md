@@ -1,9 +1,10 @@
-# h1 HEADING
+# HEADING h1 
 ***
 
-## h2 HEADING
+## HEADING h2 
 
-### h3 SUB-HEADING
+### SUB-HEADING h3 
+
 ***
 
 #### h4 SUB-HEADING
@@ -16,6 +17,7 @@ VS
 
 THIS IS MY FIRST PARAGRAPH
 THIS IS MY SECOND PARAGRAPH
+(объединяются в одну строку)
 
 ---
 
