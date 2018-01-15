@@ -19,7 +19,7 @@
 
 Результат выполнения агента:
 
-Рис. variables01
+![](http://webdesign.ru.net/images/Heydon_min.jpg)
 
 ---
 
