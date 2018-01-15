@@ -19,7 +19,7 @@
 
 <dd><li> <a href="other_catalogs1.md"> Структуры каталогов active_test_learning (Незавершенный тест) и test_learning (Завершенный тест)</a></dd>
 
-<dd><li> <a href="hasproperty.md"> Проверка наличия указанного атрибута (HasProperty)</a></dd>
+<dd><li> <a href="hasproperty.md"> Проверка наличия атрибута объекта с помощью метода HasProperty</a></dd>
  
 
 
