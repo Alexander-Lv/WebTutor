@@ -2,10 +2,10 @@
 
 Оператор цикла **for** имеет следующую структуру:
 
-for (Counter = Start; Counter < End; Counter++)
-{
-	// операторы 
-} 
+    for (Counter = Start; Counter < End; Counter++)
+    {
+    	// операторы 
+    } 
 
 где: 
 Counter - любая численная переменная VBA
