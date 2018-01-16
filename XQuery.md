@@ -15,6 +15,9 @@
 
 for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
 
+![](blue_15x15.png)for $elem ![](green_15x15.png)in collaborators ![](red_15x15.png)where contains($elem/fullname, 'Test') ![](dark-green_15x15.png)return $elem
+
+
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test')
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') return $elem";
