@@ -3,10 +3,11 @@
 
 ***
 
-В системе 
+В системе WebTutor широко используются запросы в формате XQuery. Эти запросы менее известны, чем аналогичные запросы на языке SQL, но после некоторой практики запросы XQuery становятся вполне понятными.
 
-Следующая прекрасная иллюстрания взята из книги Максима Юркова ["Progressive WebTutor"](https://maksimyurkov.gitbooks.io/progressive-webtutor/content/).
+Для понимания того, как устроены запросы XQuery, на наш взгляд, может быть полезна следующая прекрасная иллюстрация взята из книги Максима Юркова ["Progressive WebTutor"](https://maksimyurkov.gitbooks.io/progressive-webtutor/content/).
 
+![](XQuery01.jpg)
 
 
 
