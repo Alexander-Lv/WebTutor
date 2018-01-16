@@ -15,7 +15,7 @@
 
 for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
 
-![](blue_15x15.png)for $elem ![](green_15x15.png)in collaborators ![](red_15x15.png)where contains($elem/fullname, 'Test') ![](dark-green_15x15.png)return $elem
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Test') ![](dark-green_15x15.png) return $elem
 
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test')
@@ -25,6 +25,33 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') 
 **Примечание**: Обратите внимание на то, что значение критерия поиска (ФИО) заключено в одинарные кавычки, а весь текст кода запроса – в двойные кавычки.
 
 **CONTAINS** — предикат, используемый для выполнения полнотекстового поиска подстроки в полях, содержащих символьные данные.
+
+---
+
+Отбор сотрудников по двум критериям:
+
+for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
+
+
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
+SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test') AND login = 'TestTestTest'
+
+_query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem";
+
+---
+
+Отбор теста по одному критерию (коду):
+
+for $elem in assessments where $elem/code = '00000017' return $elem
 
 ![](blue_15x15.png)
 
@@ -37,22 +64,6 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') 
 ![](dark-green_15x15.png)
 
 
----
-
-Отбор сотрудников по двум критериям:
-
-for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
-
-SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test') AND login = 'TestTestTest'
-
-_query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem";
-
----
-
-Отбор теста по одному критерию (коду):
-
-for $elem in assessments where $elem/code = '00000017' return $elem
-
 SELECT * FROM assessments WHERE code = '00000017'
 
 _query_str = " for $elem in assessments where $elem/code = '00000017' return $elem ";
@@ -62,6 +73,17 @@ _query_str = " for $elem in assessments where $elem/code = '00000017' return $el
 Отбор курса по одному критерию (коду):
 
 for $elem in courses where $elem/code = 'OTM8' return $elem
+
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
 
 SELECT * FROM courses WHERE code = 'OTM8'
 
@@ -77,6 +99,29 @@ for $elem in collaborators where contains($elem/fullname, 'Иванов') order 
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id ascending return $elem
 
+
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
+
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
+
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id 
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem";
@@ -88,6 +133,17 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id descending return $elem
 
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
+
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id DESC
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id descending return $elem";
@@ -98,17 +154,50 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 for $emp in test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp
 
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
+
 ---
 
 Отбор незаконченных тестов для определенного сотрудника:
 
 _query_str = "for $emp in active_test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp";
 
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
+
 ---
 
 Отбор пройденных тестов (state_id=4) среди завершенных по данному сотруднику:
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
+
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
 
@@ -117,6 +206,17 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 Отбор пройденных тестов (state_id=4) среди незавершенных по данному сотруднику:
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
+
+![](blue_15x15.png)
+
+![](green_15x15.png)
+
+![](red_15x15.png)
+
+![](violet_15x15.png)
+
+![](dark-green_15x15.png)
+
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
 
