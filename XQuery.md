@@ -11,7 +11,7 @@
 
 ---
 
-Отбор сотрудников по одному критерию:
+**Отбор сотрудников по одному критерию:**
 
 for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
 
@@ -21,7 +21,18 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') 
 
 **Примечание**: Обратите внимание на то, что значение критерия поиска (ФИО) заключено в одинарные кавычки, а весь текст кода запроса – в двойные кавычки.
 
-CONTAINS — предикат, используемый для выполнения полнотекстового поиска подстроки в полях, содержащих символьные данные.
+**CONTAINS** — предикат, используемый для выполнения полнотекстового поиска подстроки в полях, содержащих символьные данные.
+
+![](blue 15x15.png)
+
+![](green 15x15.png)
+
+![](red 15x15.png)
+
+![](red 15x15.png)
+
+![](red 15x15.png)
+
 
 ---
 
@@ -39,9 +50,9 @@ _query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test')
 
 for $elem in assessments where $elem/code = '00000017' return $elem
 
-    SELECT * FROM assessments WHERE code = '00000017'
+SELECT * FROM assessments WHERE code = '00000017'
 
-    _query_str = " for $elem in assessments where $elem/code = '00000017' return $elem ";
+_query_str = " for $elem in assessments where $elem/code = '00000017' return $elem ";
 
 ---
 
@@ -51,7 +62,7 @@ for $elem in courses where $elem/code = 'OTM8' return $elem
 
 SELECT * FROM courses WHERE code = 'OTM8'
 
- _query_str = "for $elem in courses where $elem/code = 'OTM8' return $elem";
+_query_str = "for $elem in courses where $elem/code = 'OTM8' return $elem";
 
 ---
 
