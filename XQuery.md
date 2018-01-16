@@ -17,8 +17,11 @@ for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Test') ![](dark-green_15x15.png) return $elem
 
+* Аналогичный запрос на языке SQL:
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test')
+
+* Присвоение переменной текста запроса: 
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') return $elem";
 
@@ -34,7 +37,11 @@ for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/log
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') ![](dark-green_15x15.png) return $elem
 
+* Аналогичный запрос на языке SQL:
+
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test') AND login = 'TestTestTest'
+
+* Присвоение переменной текста запроса: 
 
 _query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem";
 
@@ -46,7 +53,11 @@ for $elem in assessments where $elem/code = '00000017' return $elem
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in assessments ![](red_15x15.png) where $elem/code = '00000017' ![](dark-green_15x15.png) return $elem
 
+* Аналогичный запрос на языке SQL:
+
 SELECT * FROM assessments WHERE code = '00000017'
+
+* Присвоение переменной текста запроса: 
 
 _query_str = " for $elem in assessments where $elem/code = '00000017' return $elem ";
 
@@ -58,7 +69,11 @@ for $elem in courses where $elem/code = 'OTM8' return $elem
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in courses ![](red_15x15.png) where $elem/code = 'OTM8' ![](dark-green_15x15.png) return $elem
 
+* Аналогичный запрос на языке SQL:
+
 SELECT * FROM courses WHERE code = 'OTM8'
+
+* Присвоение переменной текста запроса: 
 
 _query_str = "for $elem in courses where $elem/code = 'OTM8' return $elem";
 
@@ -77,7 +92,11 @@ for $elem in collaborators where contains($elem/fullname, 'Иванов') order 
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') ![](violet_15x15.png) order by $elem/id ascending ![](dark-green_15x15.png) return $elem
 
+* Аналогичный запрос на языке SQL:
+
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id 
+
+* Присвоение переменной текста запроса: 
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem";
 
@@ -90,9 +109,11 @@ for $elem in collaborators where contains($elem/fullname, 'Иванов') order 
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') ![](violet_15x15.png) order by $elem/id descending ![](dark-green_15x15.png) return $elem
 
-
+* Аналогичный запрос на языке SQL:
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id DESC
+
+* Присвоение переменной текста запроса: 
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id descending return $elem";
 
@@ -104,6 +125,10 @@ for $emp in test_learnings where contains($emp/person_fullname, 'Иванов И
 
 ![](blue_15x15.png) for $emp ![](green_15x15.png) in test_learnings ![](red_15x15.png) where contains($emp/person_fullname, 'Иванов Иван Иванович') ![](dark-green_15x15.png) return $emp
 
+* Присвоение переменной текста запроса: 
+
+_query_str = "for $emp in test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp";
+
 ---
 
 **Отбор незаконченных тестов для определенного сотрудника:**
@@ -111,6 +136,8 @@ for $emp in test_learnings where contains($emp/person_fullname, 'Иванов И
 for $emp in active_test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp
 
 ![](blue_15x15.png) for $emp ![](green_15x15.png) in active_test_learnings ![](red_15x15.png) where contains($emp/person_fullname, 'Иванов Иван Иванович') ![](dark-green_15x15.png) return $emp
+
+* Присвоение переменной текста запроса: 
 
 _query_str = "for $emp in active_test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp";
 
@@ -123,6 +150,8 @@ for $elem in collaborators where contains($elem/fullname, 'Иванов') and $e
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') and $elem/state_id=4 ![](dark-green_15x15.png) return $elem
 
+* Присвоение переменной текста запроса: 
+
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
 
 ---
@@ -133,6 +162,7 @@ for $elem in collaborators where contains($elem/fullname, 'Иванов') and $e
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') and $elem/state_id=4 ![](dark-green_15x15.png) return $elem
 
+* Присвоение переменной текста запроса: 
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
 
