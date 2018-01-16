@@ -15,7 +15,7 @@
 
 for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
 
-![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Test') ![](dark-green_15x15a.png) return $elem
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Test') ![](dark-green_15x15.png) return $elem
 
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test')
@@ -42,7 +42,7 @@ for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/log
 
 ![](violet_15x15.png)
 
-![](dark-green_15x15a.png)
+![](dark-green_15x15.png)
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test') AND login = 'TestTestTest'
 
@@ -64,7 +64,7 @@ for $elem in assessments where $elem/code = '00000017' return $elem
 
 ![](violet_15x15.png)
 
-![](dark-green_15x15a.png)
+![](dark-green_15x15.png)
 
 
 SELECT * FROM assessments WHERE code = '00000017'
