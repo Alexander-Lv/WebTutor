@@ -33,5 +33,6 @@
 
 ![](data_types01.PNG)
 
+
 ***
 <dd><li> <a href="README.md"> Возврат к оглавлению</a></dd>
