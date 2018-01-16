@@ -23,15 +23,15 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') 
 
 **CONTAINS** — предикат, используемый для выполнения полнотекстового поиска подстроки в полях, содержащих символьные данные.
 
-![](blue 15x15.png)
+![](blue_15x15.png)
 
-![](green 15x15.png)
+![](green_15x15.png)
 
-![](red 15x15.png)
+![](red_15x15.png)
 
-![](red 15x15.png)
+![](violet_15x15.png)
 
-![](red 15x15.png)
+![](dark-green_15x15.png)
 
 
 ---
