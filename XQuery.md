@@ -32,17 +32,7 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') 
 
 for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
 
-for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
-
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') ![](dark-green_15x15.png) return $elem
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test') AND login = 'TestTestTest'
 
@@ -52,20 +42,9 @@ _query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test')
 
 Отбор теста по одному критерию (коду):
 
-for $elem in assessments where $elem/code = '00000017' return $elem
+for $elem in assessments where $elem/code = '00000017' return $elem 
 
-for $elem in assessments where $elem/code = '00000017' return $elem
-
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
-
+![](blue_15x15.png) for $elem ![](green_15x15.png) in assessments ![](red_15x15.png) where $elem/code = '00000017' ![](dark-green_15x15.png) return $elem
 
 SELECT * FROM assessments WHERE code = '00000017'
 
@@ -77,18 +56,7 @@ _query_str = " for $elem in assessments where $elem/code = '00000017' return $el
 
 for $elem in courses where $elem/code = 'OTM8' return $elem
 
-for $elem in courses where $elem/code = 'OTM8' return $elem
-
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
-
+![](blue_15x15.png) for $elem ![](green_15x15.png) in courses ![](red_15x15.png) where $elem/code = 'OTM8' ![](dark-green_15x15.png) return $elem
 
 SELECT * FROM courses WHERE code = 'OTM8'
 
@@ -105,32 +73,9 @@ for $elem in collaborators where contains($elem/fullname, 'Иванов') order 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id ascending return $elem
 
 
-for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') ![](violet_15x15.png) order by $elem/id ![](dark-green_15x15.png) return $elem
 
-for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id ascending return $elem
-
-
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
-
-
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
-
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') ![](violet_15x15.png) order by $elem/id ascending ![](dark-green_15x15.png) return $elem
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id 
 
