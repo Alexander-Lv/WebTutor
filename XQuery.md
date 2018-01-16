@@ -9,6 +9,107 @@
 
 ![](XQuery01.jpg)
 
+---
+
+Отбор сотрудников по одному критерию:
+
+for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
+
+SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test')
+
+_query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') return $elem";
+
+**Примечание**: Обратите внимание на то, что значение критерия поиска (ФИО) заключено в одинарные кавычки, а весь текст кода запроса – в двойные кавычки.
+
+CONTAINS — предикат, используемый для выполнения полнотекстового поиска подстроки в полях, содержащих символьные данные.
+
+---
+
+Отбор сотрудников по двум критериям:
+
+for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
+
+SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Test') AND login = 'TestTestTest'
+
+_query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem";
+
+---
+
+Отбор теста по одному критерию (коду):
+
+for $elem in assessments where $elem/code = '00000017' return $elem
+
+    SELECT * FROM assessments WHERE code = '00000017'
+
+    _query_str = " for $elem in assessments where $elem/code = '00000017' return $elem ";
+
+---
+
+Отбор курса по одному критерию (коду):
+
+for $elem in courses where $elem/code = 'OTM8' return $elem
+
+SELECT * FROM courses WHERE code = 'OTM8'
+
+ _query_str = "for $elem in courses where $elem/code = 'OTM8' return $elem";
+
+---
+
+Отбор сотрудников с упорядочиванием (по возрастанию):
+
+for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem
+
+или 
+
+for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id ascending return $elem
+
+SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id 
+
+_query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem";
+
+
+----
+
+Отбор сотрудников с упорядочиванием (по убыванию):
+
+for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id descending return $elem
+
+SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id DESC
+
+_query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id descending return $elem";
+
+---
+
+Отбор законченных тестов для определенного сотрудника:
+
+for $emp in test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp
+
+---
+
+Отбор незаконченных тестов для определенного сотрудника:
+
+_query_str = "for $emp in active_test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp";
+
+---
+
+Отбор пройденных тестов (state_id=4) среди завершенных по данному сотруднику:
+
+for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
+
+_query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
+
+---
+
+Отбор пройденных тестов (state_id=4) среди незавершенных по данному сотруднику:
+
+for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
+
+_query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
+
+---
+
+
+
 
 
 просмотра каталога
