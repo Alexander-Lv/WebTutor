@@ -43,11 +43,15 @@
 * [Форумы сообщества пользователей WebTutor](http://news.websoft.ru/view_doc.html?mode=doc&doc_id=5900009198344233445)
 
 
+```html
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <font color="blue">499$</font>
 <font color="green">499$</font>
 <font color="red">499$</font>
 <font color="violet">499$</font>
 <font color="#cc0000">красный</font>
+```
 
 
 ***
