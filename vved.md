@@ -43,21 +43,6 @@
 * [Форумы сообщества пользователей WebTutor](http://news.websoft.ru/view_doc.html?mode=doc&doc_id=5900009198344233445)
 
 
-
-- ![#f03c15](https://placehold.it/15/f03c15/000000?text=+) `#f03c15`
-- ![#c5f015](https://placehold.it/15/c5f015/000000?text=+) `#c5f015`
-- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
-
-```html
-
-<font color="blue">499$</font>
-<font color="green">499$</font>
-<font color="red">499$</font>
-<font color="violet">499$</font>
-<font color="#cc0000">красный</font>
-```
-
-
 ***
 
 <dd><li> <a href="README.md"> Возврат к оглавлению</a></dd>
