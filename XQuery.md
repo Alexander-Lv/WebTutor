@@ -28,7 +28,7 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') 
 
 ---
 
-Отбор сотрудников по двум критериям:
+**Отбор сотрудников по двум критериям:**
 
 for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
 
@@ -40,7 +40,7 @@ _query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test')
 
 ---
 
-Отбор теста по одному критерию (коду):
+**Отбор теста по одному критерию (коду):**
 
 for $elem in assessments where $elem/code = '00000017' return $elem 
 
@@ -52,7 +52,7 @@ _query_str = " for $elem in assessments where $elem/code = '00000017' return $el
 
 ---
 
-Отбор курса по одному критерию (коду):
+**Отбор курса по одному критерию (коду):**
 
 for $elem in courses where $elem/code = 'OTM8' return $elem
 
@@ -64,7 +64,7 @@ _query_str = "for $elem in courses where $elem/code = 'OTM8' return $elem";
 
 ---
 
-Отбор сотрудников с упорядочиванием (по возрастанию):
+**Отбор сотрудников с упорядочиванием (по возрастанию):**
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem
 
@@ -84,7 +84,7 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 ----
 
-Отбор сотрудников с упорядочиванием (по убыванию):
+**Отбор сотрудников с упорядочиванием (по убыванию):**
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id descending return $elem
 
@@ -98,7 +98,7 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 ---
 
-Отбор законченных тестов для определенного сотрудника:
+**Отбор законченных тестов для определенного сотрудника:**
 
 for $emp in test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp
 
@@ -106,7 +106,7 @@ for $emp in test_learnings where contains($emp/person_fullname, 'Иванов И
 
 ---
 
-Отбор незаконченных тестов для определенного сотрудника:
+**Отбор незаконченных тестов для определенного сотрудника:**
 
 for $emp in active_test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp
 
@@ -117,19 +117,17 @@ _query_str = "for $emp in active_test_learnings where contains($emp/person_fulln
 
 ---
 
-Отбор пройденных тестов (state_id=4) среди завершенных по данному сотруднику:
+**Отбор пройденных тестов (state_id=4) среди завершенных по данному сотруднику:**
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
 
 ![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') and $elem/state_id=4 ![](dark-green_15x15.png) return $elem
 
-
-
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
 
 ---
 
-Отбор пройденных тестов (state_id=4) среди незавершенных по данному сотруднику:
+**Отбор пройденных тестов (state_id=4) среди незавершенных по данному сотруднику:**
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
 
