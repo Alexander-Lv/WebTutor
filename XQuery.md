@@ -32,6 +32,7 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') 
 
 for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
 
+for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
 
 ![](blue_15x15.png)
 
@@ -53,6 +54,8 @@ _query_str = "for $elem in collaborators where (contains($elem/fullname, 'Test')
 
 for $elem in assessments where $elem/code = '00000017' return $elem
 
+for $elem in assessments where $elem/code = '00000017' return $elem
+
 ![](blue_15x15.png)
 
 ![](green_15x15.png)
@@ -71,6 +74,8 @@ _query_str = " for $elem in assessments where $elem/code = '00000017' return $el
 ---
 
 Отбор курса по одному критерию (коду):
+
+for $elem in courses where $elem/code = 'OTM8' return $elem
 
 for $elem in courses where $elem/code = 'OTM8' return $elem
 
@@ -96,6 +101,11 @@ _query_str = "for $elem in courses where $elem/code = 'OTM8' return $elem";
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem
 
 или 
+
+for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id ascending return $elem
+
+
+for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id ascending return $elem
 
@@ -133,15 +143,8 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id descending return $elem
 
-![](blue_15x15.png)
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') ![](violet_15x15.png) order by $elem/id descending ![](dark-green_15x15.png) return $elem
 
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
 
 
 SELECT * FROM collaborators WHERE CONTAINS(fullname, 'Иванов') ORDER BY id DESC
@@ -154,32 +157,17 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 for $emp in test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp
 
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
-
+![](blue_15x15.png) for $emp ![](green_15x15.png) in test_learnings ![](red_15x15.png) where contains($emp/person_fullname, 'Иванов Иван Иванович') ![](dark-green_15x15.png) return $emp
 
 ---
 
 Отбор незаконченных тестов для определенного сотрудника:
 
+for $emp in active_test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp
+
+![](blue_15x15.png) for $emp ![](green_15x15.png) in active_test_learnings ![](red_15x15.png) where contains($emp/person_fullname, 'Иванов Иван Иванович') ![](dark-green_15x15.png) return $emp
+
 _query_str = "for $emp in active_test_learnings where contains($emp/person_fullname, 'Иванов Иван Иванович') return $emp";
-
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
 
 
 ---
@@ -188,15 +176,8 @@ _query_str = "for $emp in active_test_learnings where contains($emp/person_fulln
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
 
-![](blue_15x15.png)
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') and $elem/state_id=4 ![](dark-green_15x15.png) return $elem
 
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
 
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
@@ -207,15 +188,7 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem
 
-![](blue_15x15.png)
-
-![](green_15x15.png)
-
-![](red_15x15.png)
-
-![](violet_15x15.png)
-
-![](dark-green_15x15.png)
+![](blue_15x15.png) for $elem ![](green_15x15.png) in collaborators ![](red_15x15.png) where contains($elem/fullname, 'Иванов') and $elem/state_id=4 ![](dark-green_15x15.png) return $elem
 
 
 _query_str = "for $elem in collaborators where contains($elem/fullname, 'Иванов') and $elem/state_id=4 return $elem";
