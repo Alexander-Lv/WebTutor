@@ -3,19 +3,27 @@
 
 ![](underconstruction.png)
 
+---
 
+Вводим нового (тестового) пользователя, как это показано на двух следующих рисунках:
 
-![](Collab_test01.png)
+![](Collab_test1.png)
 
-![](Collab_test02.png)
+![](Collab_test2.png)
 
+**Внимание!** В качестве электронного адреса нужно ввести несуществующий адрес, так как на данный адрес может быть направлены сообщения системы WebTutor.
 
+---
 
+Нажимаем **Ctrl+Shift+F8** и в открывшемся окне просмотра каталога вводим текст запроса.
 
-Нажимаем Ctrl + Shift + F8. Получаем интерфейс, позволяющий получить данные из каталога.
+**for $elem in collaborators where contains($elem/fullname, 'Test') return $elem**
 
-Даходим тестового пользователя:
-for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
+---
+
+Находим тестового пользователя. 
+
+На следующих скриншотах показаны значения всех полей объекта **collaborator** для тестового пользователя:
 
 ![](collaborator01.png)
 
@@ -25,6 +33,7 @@ for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
 
 ![](collaborator04.png)
  
+ ---
 
 **id** = 6511610587817075498
 
@@ -105,8 +114,6 @@ for $elem in collaborators where contains($elem/fullname, 'Test') return $elem
 **app_instance_id** – атрибут неопределен
 
 **category_id** – атрибут неопределен
-
-
 
 
 ***
