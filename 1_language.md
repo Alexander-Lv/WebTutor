@@ -13,6 +13,7 @@
 <dd><li> <a href="for.md"> Цикл for</a></dd>
 <dd><li> <a href="for_in.md"> Цикл for… in</a></dd>
 <dd><li> <a href="try.md"> Обработка ошибок: операторы try… catch (err)</a></dd>
+<dd><li> <a href="arrays.md"> Массивы</a></dd>
 <dd><li> <a href="functions.md"> Функции</a></dd> 
 
 
