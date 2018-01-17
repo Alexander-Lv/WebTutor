@@ -26,7 +26,7 @@
 <dd><li> <a href="switch.md"> Оператор выбора switch</a></dd>
 <dd><li> <a href="for.md"> Цикл for</a></dd>
 <dd><li> <a href="for_in.md"> Цикл for… in</a></dd>
-<dd><li> <a href="try.md"> Обработка ошибок: операторы try… catch (err)</a> *****</dd>
+<dd><li> <a href="try.md"> Обработка ошибок: операторы try… catch (err)</a></dd>
 <dd><li> <a href="functions.md"> Функции</a> *****</dd>
 ---
 <dd><li> <a href="2_data_types.md"> Часть 2. Типы данных</a></dd>
