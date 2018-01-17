@@ -26,8 +26,8 @@
 <dd><li> <a href="switch.md"> Оператор выбора switch</a></dd>
 <dd><li> <a href="for.md"> Цикл for</a></dd>
 <dd><li> <a href="for_in.md"> Цикл for… in</a></dd>
-<dd><li> <a href="try.md"> Обработка ошибок: операторы try… catch (err)</a> ![](underconstruction-75x57.png)</dd>
-<dd><li> <a href="functions.md"> Функции</a> ![](underconstruction-75x57.png)</dd>
+![](underconstruction-75x57.png)<dd><li> <a href="try.md"> Обработка ошибок: операторы try… catch (err)</a> ![](underconstruction-75x57.png)</dd>
+![](underconstruction-75x57.png)<dd><li> <a href="functions.md"> Функции</a> ![](underconstruction-75x57.png)</dd>
 ---
 <dd><li> <a href="2_data_types.md"> Часть 2. Типы данных</a></dd>
 ---
