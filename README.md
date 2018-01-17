@@ -33,17 +33,17 @@
 ---
 <dd><li> <a href="3_object_model.md"> Часть 3. Работа с объектной моделью. Изучение объектной модели</a></dd>
 <dd><li> <a href="catalogs.md"> Справочник каталогов</a></dd>
-<dd><li> <a href="collaborator.md"> Структура каталога collaborator (Сотрудник)</a></dd>
-<dd><li> <a href="assessment.md"> Структура каталога assessment (Тест)</a></dd>
-<dd><li> <a href="course.md"> Структура каталога course (Электронный курс)</a></dd>
+<dd><li> <a href="collaborator.md"> Структура каталога collaborator (Сотрудник)</a> *****</dd>
+<dd><li> <a href="assessment.md"> Структура каталога assessment (Тест)</a> *****</dd>
+<dd><li> <a href="course.md"> Структура каталога course (Электронный курс)</a> *****</dd>
 <dd><li> <a href="other_catalogs1.md"> Структуры каталогов active_test_learning (Незавершенный тест) и test_learning (Завершенный тест)</a></dd>
 ---
 <dd><li> <a href="4_queries.md"> Часть 4. Запросы</a></dd>
 <dd><li> <a href="XQuery.md"> Запросы XQuery. Примеры запросов</a></dd>
-<dd><li> <a href="XQuery_control.md"> Проверка корректности запроса в режиме просмотра каталога</a></dd>
-<dd><li> <a href="XQuery_quantity.md"> Проверка количества объектов в результате запроса</a></dd>
+<dd><li> <a href="XQuery_control.md"> Проверка корректности запроса в режиме просмотра каталога</a> *****</dd>
+<dd><li> <a href="XQuery_quantity.md"> Проверка количества объектов в результате запроса</a> *****</dd>
 ---
-<dd><li> <a href="5_practical_realization.md"> Часть 5. Реализация некоторых практических задач</a></dd>
+<dd><li> <a href="5_practical_realization.md"> Часть 5. Реализация некоторых практических задач</a> *****</dd>
 ---
 <dd><li> <a href="1_pril.md"> Приложение 1. Как загрузить пакет с агентом в систему</a></dd>
 <dd><li> <a href="2_pril.md"> Приложение 2. Как создать собственный пакет с агентом</a></dd>
