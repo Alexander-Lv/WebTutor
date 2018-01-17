@@ -79,6 +79,20 @@ _query_str = "for $elem in courses where $elem/code = 'OTM8' return $elem";
 
 ---
 
+**Отбор объекта по ID:**
+
+for $elem in collaborators where $elem/id = 6511610587817075498 return $elem
+
+for $elem in assessments where $elem/id = 6424083603832075130 return $elem
+
+for $elem in courses where $elem/id = 6486395195918459516 return $elem
+
+**Примечание** – Об определении ID объектов – см. [Приложение 3. Как определить ID объекта](3_pril.md).
+
+---
+
+
+
 **Отбор сотрудников с упорядочиванием (по возрастанию):**
 
 for $elem in collaborators where contains($elem/fullname, 'Иванов') order by $elem/id return $elem
