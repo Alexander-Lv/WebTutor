@@ -37,7 +37,6 @@
 <dd><li> <a href="assessment.md"> Структура каталога assessment (Тест)</a></dd>
 <dd><li> <a href="course.md"> Структура каталога course (Электронный курс)</a></dd>
 <dd><li> <a href="other_catalogs1.md"> Структуры каталогов active_test_learning (Незавершенный тест) и test_learning (Завершенный тест)</a></dd>
-<dd><li> <a href="hasproperty.md"> Проверка наличия атрибута объекта с помощью метода HasProperty</a></dd>
 ---
 <dd><li> <a href="4_queries.md"> Часть 4. Запросы</a></dd>
 <dd><li> <a href="XQuery.md"> Запросы XQuery. Примеры запросов</a></dd>
