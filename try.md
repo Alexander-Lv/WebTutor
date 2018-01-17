@@ -5,11 +5,11 @@
 
     try
     {
-     // операторы 
+        // операторы 
     }
     catch (err) 
     { 
-     alert(err);
+        alert(err);
     }
 
 
