@@ -196,7 +196,5 @@ _query_str = "for $elem in collaborators where contains($elem/fullname, 'Ива�
 
 
 ***
-
-
-
+<dd><li> <a href="4_queries.md"> Возврат к части 4</a></dd>
 <dd><li> <a href="README.md"> Возврат к оглавлению</a></dd>
