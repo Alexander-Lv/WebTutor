@@ -27,7 +27,7 @@
 <dd><li> <a href="for.md"> Цикл for</a></dd>
 <dd><li> <a href="for_in.md"> Цикл for… in</a></dd>
 <dd><li> <a href="try.md"> Обработка ошибок: операторы try… catch (err)</a></dd>
-<dd><li> <a href="arrays.md"> Массивы</a> *****</dd>
+<dd><li> <a href="arrays.md"> Массивы</a></dd>
 <dd><li> <a href="functions.md"> Пользовательские функции</a></dd>
 ---
 <dd><li> <a href="2_data_types.md"> Часть 2. Типы данных</a></dd>
