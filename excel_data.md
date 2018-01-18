@@ -5,47 +5,47 @@
 
 ---
 
-	// Нажмите кнопку Выполнить агент на стороне клиента и выберите файл Excel.
-	// Файл Excel должен быть закрыт.
-	excelFileUrl = Screen.AskFileOpen( '', 'Выберите файл&#09;*.*' );
-try
-{
-	sourceList = OpenDoc(excelFileUrl, 'format=excel' );
-	// Загружаются все данные, имеющиеся в файле Excel.
+    // Нажмите кнопку Выполнить агент на стороне клиента и выберите файл Excel.
+    // Файл Excel должен быть закрыт.
+    excelFileUrl = Screen.AskFileOpen( '', 'Выберите файл&#09;*.*' );
+    try
+    {
+    	sourceList = OpenDoc(excelFileUrl, 'format=excel' );
+     	// Загружаются все данные, имеющиеся в файле Excel.
 
-	workbook = sourceList.TopElem;
-	// workbook - это одномерный массив данных по листам книги Excel.
-	// Данные каждого элемента массива workbook (каждого листа), в свою очередь, организованы в двумерный массив.
+     	workbook = sourceList.TopElem;
+     	// workbook - это одномерный массив данных по листам книги Excel.
+     	// Данные каждого элемента массива workbook (каждого листа), в свою очередь, организованы в двумерный массив.
 
-	// Просмотрим наименования загруженных листов
-	for (_sheet in workbook)
-	{
-		alert(_sheet.name);
-	}
+     	// Просмотрим наименования загруженных листов
+    	for (_sheet in workbook)
+    	{
+    		alert(_sheet.name);
+     	}
 
-	// Работаем с данными из первого загруженного листа
-	lineArray = sourceList.TopElem[0];
-	// sourceList.TopElem[0] - это то же самое, что и ArrayFirstElem(sourceList.TopElem)
-	// В память загружается двумерный массив данных lineArray[][].
-	// Первый параметр массива - номер столбца (от 0: номер 0 - строка 1; номер 1 - строка 2; номер 2 - строка 3 и т.д.).
-	// Второй параметр массива - номер строки (от 0: номер 0 - столбец A; номер 1 - столбец B; номер 2 - столбец C и т.д.).
-}
-catch(err)
-{
-	alert("ОШИБКА: невозможно получить доступ к файлу " + excelFileUrl + ".");
-	alert("Агент завершен аварийно.");
-	return;
-} 
+    	// Работаем с данными из первого загруженного листа
+    	lineArray = sourceList.TopElem[0];
+     	// sourceList.TopElem[0] - это то же самое, что и ArrayFirstElem(sourceList.TopElem)
+    	// В память загружается двумерный массив данных lineArray[][].
+     	// Первый параметр массива - номер столбца (от 0: номер 0 - строка 1; номер 1 - строка 2; номер 2 - строка 3 и т.д.).
+    	// Второй параметр массива - номер строки (от 0: номер 0 - столбец A; номер 1 - столбец B; номер 2 - столбец C и т.д.).
+    }
+    catch(err)
+    {
+    	alert("ОШИБКА: невозможно получить доступ к файлу " + excelFileUrl + ".");
+    	alert("Агент завершен аварийно.");
+    	return;
+    } 
 
-	alert("Количество строк на листе " + sourceList.TopElem[0].name + " в файле Excel (ArrayCount(lineArray)) = " + ArrayCount(lineArray) );
+    alert("Количество строк на листе " + sourceList.TopElem[0].name + " в файле Excel (ArrayCount(lineArray)) = " + ArrayCount(lineArray) );
 
-// Вывод информации из столбцов A, B и С первого листа на экран (6 строк)
-for (i = 0; i < ArrayCount(lineArray); i++)
-{
-	alert("lineArray[i][0] = " + lineArray[i][0] + "\n" + 
-		"lineArray[i][1] = " + lineArray[i][1] + "\n" + 
-		"lineArray[i][2] = " + lineArray[i][2] );
-}
+    // Вывод информации из столбцов A, B и С первого листа на экран (6 строк)
+    for (i = 0; i < ArrayCount(lineArray); i++)
+    {
+    	alert("lineArray[i][0] = " + lineArray[i][0] + "\n" + 
+    		"lineArray[i][1] = " + lineArray[i][1] + "\n" + 
+    		"lineArray[i][2] = " + lineArray[i][2] );
+    }
 
 
 
@@ -110,15 +110,8 @@ for (i = 0; i < ArrayCount(lineArray); i++)
 
 
 
- 
-
-
 ***
 
-
-
 <dd><li> <a href="5_practical_realization.md"> Возврат к части 5</a></dd>
-
-
 
 <dd><li> <a href="README.md"> Возврат к оглавлению</a></dd>
