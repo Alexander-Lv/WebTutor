@@ -97,7 +97,8 @@
 
 
 	// Теперь worksheet - это искомый двумерный массив данных на листе Sheet2
-	alert("Количество строк на листе " + worksheet.name + " в файле Excel (ArrayCount(worksheet)) = " + ArrayCount(worksheet) );
+	alert("Количество строк на листе " + worksheet.name + " в файле Excel (ArrayCount(worksheet)) = " 
+	    + ArrayCount(worksheet));
 
 	// Вывод информации из столбцов A, B и С указанного листа на экран (4 строк)
 	for (i = 0; i < ArrayCount(worksheet); i++)
