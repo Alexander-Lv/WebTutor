@@ -18,34 +18,49 @@
 На следующих скриншотах показаны значения всех полей (атрибутов) объекта **assessment**:
 
 
-
-
-
 ![](assessment01.png)
  
 
 ![](assessment02.png)
  
 
-id = '6325699241730391195'
-code = '00000017'
-title = '4 арх. Пожарная безопасность'
-status = 'publish'
-duration = 40
-duration_days = 90
-passing_score = 20
-not_display_unfinished_score = false
-is_open = false
-external_type – атрибут неопределен
-modification_date = '09.01.2018 12:43:29'
-app_instance_id – атрибут неопределен
-knowledge_parts – атрибут неопределен
-tags – атрибут неопределен
-experts – атрибут неопределен
-user_access_role – атрибут неопределен
-user_group_id – атрибут неопределен
+ ---
 
+Ниже приводятся все атрибуты объекта, отображенные в режиме просмотра каталога:
 
+**id** = '6325699241730391195'
+
+**code** = '00000017'
+
+**title** = '4 арх. Пожарная безопасность'
+
+**status** = 'publish'
+
+**duration** = 40
+
+**duration_days** = 90
+
+**passing_score** = 20
+
+**not_display_unfinished_score** = false
+
+**is_open** = false
+
+**external_type** – атрибут неопределен
+
+**modification_date** = '09.01.2018 12:43:29'
+
+**app_instance_id** – атрибут неопределен
+
+**knowledge_parts** – атрибут неопределен
+
+**tags** – атрибут неопределен
+
+**experts** – атрибут неопределен
+
+**user_access_role** – атрибут неопределен
+
+**user_group_id** – атрибут неопределен
 
 
 ***
