@@ -37,7 +37,8 @@
     	return;
     } 
 
-    alert("Количество строк на листе " + sourceList.TopElem[0].name + " в файле Excel (ArrayCount(lineArray)) = " + ArrayCount(lineArray) );
+    alert("Количество строк на листе " + sourceList.TopElem[0].name + " в файле Excel (ArrayCount(lineArray)) = " 
+		+ ArrayCount(lineArray) );
 
     // Вывод информации из столбцов A, B и С первого листа на экран (6 строк)
     for (i = 0; i < ArrayCount(lineArray); i++)
@@ -98,7 +99,7 @@
 
 	// Теперь worksheet - это искомый двумерный массив данных на листе Sheet2
 	alert("Количество строк на листе " + worksheet.name + " в файле Excel (ArrayCount(worksheet)) = " 
-	    + ArrayCount(worksheet));
+        	    + ArrayCount(worksheet));
 
 	// Вывод информации из столбцов A, B и С указанного листа на экран (4 строк)
 	for (i = 0; i < ArrayCount(worksheet); i++)
