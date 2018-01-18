@@ -1,10 +1,6 @@
 # Разбор объектной модели assessment (Тест) в режиме просмотра каталога 
 ***
 
-![](underconstruction.png)
-
----
-
 Нажимаем **Ctrl+Shift+F8** и в открывшемся окне просмотра каталога вводим текст запроса - отбор теста по коду:
 
 **for $elem in assessments where $elem/code = '00000017' return $elem**
