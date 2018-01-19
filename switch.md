@@ -16,7 +16,7 @@
     		// операторы 
     		break;
     	...
-        case default:
+        default:
     		// операторы 
     		break;
     }
