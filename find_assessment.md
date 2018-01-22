@@ -15,8 +15,8 @@
 
 На карточку агента вводится следующий код:
 
-    _query_str = "for $elem in courses where $elem/code='00000017' return $elem";
-    
+    _query_str = "for $elem in assessments where $elem/code='00000017' return $elem";
+
     FoundArray = XQuery(_query_str);
     // Запросом отобран только один объект, но FoundArray является массивом объектов.
     // Поэтому мы выбираем первый объект из массива FoundArray.
@@ -24,8 +24,8 @@
 
     // Получить ID объекта и наименование теста
     obj_id = _elem.id;
-    obj_name = _elem.name;
-    alert(obj_id + "\n" + obj_name);
+    obj_title = _elem.title;
+    alert(obj_id + "\n" + obj_title);
 
 ---
 
