@@ -16,7 +16,7 @@
     _query_str = "for $elem in collaborators where contains($elem/fullname, 'Test') and $elem/login='TestTestTest' return $elem";
     personArray = XQuery(_query_str);
     // Запросом отобран только один объект, но personArray является массивом объектов.
-    // Поэтому мы выбираем первый jmtrn из массива personArray.
+    // Поэтому мы выбираем первый элемент из массива personArray.
     _elem = ArrayOptFirstElem(personArray);
     
     // Получить ID объекта и ФИО сотрудника
