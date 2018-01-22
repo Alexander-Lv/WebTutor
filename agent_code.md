@@ -45,7 +45,6 @@
     // Пример запроса: for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
     _query_str = "for $elem in collaborators where $elem/fullname = " + XQueryLiteral(lineArray[1][0]) + 
     		" and $elem/login = " + XQueryLiteral(lineArray[1][1]) + " return $elem";
-    alert(XQueryLiteral(lineArray[1][0]) + " " + XQueryLiteral(lineArray[1][1]));
     personArray = XQuery(_query_str);
 
     // Результатом отбора по запросу является массив
