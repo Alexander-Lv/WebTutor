@@ -6,7 +6,8 @@
 Скопируйте приведенный код в созданный нами агент **Тестовый агент** на вкладку **"Выполняемый код"** (предыдущий код, введенный ранее на эту вкладку, можно удалить) и запустите агент, нажав на кнопку **Выполнить агент на стороне клиента**.
 
     // ******************ОПРЕДЕЛЕНИЕ СОТРУДНИКА*************************
-    // Пример запроса: for $elem in collaborators  where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest')  return $elem
+    // Пример запроса: for $elem in collaborators  where (contains($elem/fullname, 'Test') 
+    //		and $elem/login = 'TestTestTest')  return $elem
     
     try
     {
@@ -40,7 +41,8 @@
     // Определение сотрудника, которому назначаются курсы и тесты
     // Производится отбор по ФИО и логину сотрудника
     // Пример запроса: for $elem in collaborators where (contains($elem/fullname, 'Test') and $elem/login = 'TestTestTest') return $elem
-    _query_str = "for $elem in collaborators where $elem/fullname = " + XQueryLiteral(lineArray[1][0]) + " and $elem/login = " + XQueryLiteral(lineArray[1][1]) + " return $elem";
+    _query_str = "for $elem in collaborators where $elem/fullname = " + XQueryLiteral(lineArray[1][0]) + 
+    		" and $elem/login = " + XQueryLiteral(lineArray[1][1]) + " return $elem";
     alert(XQueryLiteral(lineArray[1][0]) + " " + XQueryLiteral(lineArray[1][1]));
     personArray = XQuery(_query_str);
 
@@ -96,34 +98,32 @@
 		continue;
 	}
     } 
-
+    
     alert( (i - 1) + " курсов обработано, из них " + _counter_activate + " курсов успешно." );
-
-
-// ******************АКТИВАЦИЯ ТЕСТОВ*************************
-
-alert("Активация тестов");
-
-try
-{
+    
+    
+    // ******************АКТИВАЦИЯ ТЕСТОВ*************************
+        alert("Активация тестов");
+    
+    try
+    {
 	// Работаем со вторым листом книги Excel 
 	// (нумерация загруженных в WebTutor листов начинается с 0; 
 	// второй лист имеет индекс 1)
 	lineArray1 = sourceList.TopElem[1];
-}
-catch(err)
-{
-	alert(err);
-	alert("Агент для активации курсов и тестов завершен аварийно.");
-	return;
-}
-
-
-// Количество назначаемых тестов
-_counter_activate = 0;
-
-for (i = 1; i < ArrayCount(lineArray1); i++)
-{
+    }
+    catch(err)
+    {
+        alert(err);
+        alert("Агент для активации курсов и тестов завершен аварийно.");
+        return;
+    }
+    
+    // Количество назначаемых тестов
+    _counter_activate = 0;
+    
+    for (i = 1; i < ArrayCount(lineArray1); i++)
+    {
 	// Коды тестов находятся в ячейках A2, A3, A4 и т.д.
 	// Нумерация загруженных в WebTutor ячеек начинается с 0 
 	// (первый индекс – строка, второй – столбец)
@@ -156,7 +156,6 @@ for (i = 1; i < ArrayCount(lineArray1); i++)
     } 
 
     alert( (i - 1) + " тестов обработано, из них " + _counter_activate + " тестов успешно." );
-
 
 
 
