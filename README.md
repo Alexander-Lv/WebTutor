@@ -50,11 +50,11 @@
 ---
 <dd><li> <a href="5_practical_realization.md"> Часть 5. Реализация практических задач</a> *****</dd>
 <dd><li> <a href="excel_data.md"> Чтение данных из файла Excel</a></dd>
-<dd><li> <a href="find_collaborator.md"> Поиск сотрудника</a> *****</dd>
-<dd><li> <a href="find_course.md"> Поиск курса</a> *****</dd>
-<dd><li> <a href="find_assessment.md"> Поиск теста</a> *****</dd>
-<dd><li> <a href="activate_course.md"> Назначение курса сотруднику</a> *****</dd>
-<dd><li> <a href="activate_assessment.md"> Назначение теста сотруднику</a> *****</dd>
+<dd><li> <a href="find_collaborator.md"> Поиск сотрудника</a></dd>
+<dd><li> <a href="find_course.md"> Поиск курса</a></dd>
+<dd><li> <a href="find_assessment.md"> Поиск теста</a></dd>
+<dd><li> <a href="activate_course.md"> Назначение курса сотруднику</a></dd>
+<dd><li> <a href="activate_assessment.md"> Назначение теста сотруднику</a></dd>
 <dd><li> <a href="agent_code.md"> Выполняемый код агента для пакетного назначения сотруднику набора курсов и тестов</a> *****</dd>
 ---
 <dd><li> <a href="1_pril.md"> Приложение 1. Как загрузить пакет с агентом в систему</a></dd>
