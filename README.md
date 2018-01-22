@@ -57,7 +57,7 @@
 <dd><li> <a href="find_assessment.md"> Поиск теста</a></dd>
 <dd><li> <a href="activate_course.md"> Назначение курса сотруднику</a></dd>
 <dd><li> <a href="activate_assessment.md"> Назначение теста сотруднику</a></dd>
-<dd><li> <a href="agent_code.md"> Выполняемый код агента для пакетного назначения сотруднику набора курсов и тестов</a> *****</dd>
+<dd><li> <a href="agent_code.md"> Выполняемый код агента для пакетного назначения сотруднику набора курсов и тестов</a></dd>
 --- <br>
 Приложения:
 <dd><li> <a href="pril_test_collaborator.md"> Почему я не могу найти тестового сотрудника?</a></dd>
