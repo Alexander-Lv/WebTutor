@@ -18,9 +18,9 @@
     // Поэтому мы выбираем первый объект из массива FoundArray.
     _elem = ArrayOptFirstElem(FoundArray);
 
-// Получить ID объекта и наименование курса
-obj_id = _elem.id;
-obj_name = _elem.name;
+    // Получить ID объекта и наименование курса
+    obj_id = _elem.id;
+    obj_name = _elem.name;
     alert(obj_id + "\n" + obj_name);
 
 ---
