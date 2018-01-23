@@ -36,7 +36,7 @@
 <dd><li> <a href="catalogs.md"> Справочник каталогов</a></dd>
 <dd><li> <a href="collaborator.md"> Структура каталога collaborator (Сотрудник)</a></dd>
 <dd><li> <a href="collaborator1.md"> Разбор объектной модели collaborator (Сотрудник) в режиме просмотра каталога</a></dd>
-<dd><li> <a href="collaborator2.md"> Разбор объектной модели collaborator (Сотрудник) программным методом</a> *****</dd>
+<dd><li> <a href="collaborator2.md"> Разбор объектной модели collaborator (Сотрудник) программным методом</a></dd>
 <dd><li> <a href="assessment.md"> Структура каталога assessment (Тест)</a></dd>
 <dd><li> <a href="assessment1.md"> Разбор объектной модели assessment (Тест) в режиме просмотра каталога</a></dd>
 <dd><li> <a href="course.md"> Структура каталога course (Электронный курс)</a></dd>
