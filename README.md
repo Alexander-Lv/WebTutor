@@ -50,7 +50,7 @@
 ---
 <dd><li> <a href="5_document.md"> Часть 5. Изменение атрибутов объекта. Встроенный объект Документ</a> *****</dd>
 ---
-<dd><li> <a href="6_practical_realization.md"> Часть 6. Реализация практических задач</a> *****</dd>
+<dd><li> <a href="6_practical_realization.md"> Часть 6. Реализация практических задач</a></dd>
 <dd><li> <a href="excel_data.md"> Чтение данных из файла Excel</a></dd>
 <dd><li> <a href="find_collaborator.md"> Поиск сотрудника</a></dd>
 <dd><li> <a href="find_course.md"> Поиск курса</a></dd>
