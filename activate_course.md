@@ -2,7 +2,8 @@
 ***
 
 Для назначения сотруднику курса используется функция: 
-tools.activate_course_to_person( PersonID, _object.id );
+
+**tools.activate_course_to_person( PersonID, _object.id );**
 
 
 ---
